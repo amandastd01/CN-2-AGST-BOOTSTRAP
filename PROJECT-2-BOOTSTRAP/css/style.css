@@ -1,0 +1,130 @@
+/* .nav-blue,
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  background-color: blueviolet !important;
+} */
+/* .slider {
+  width: 100%;
+  /* buat ngikutin ukuran screennya */
+  /* height: 100vh;
+  background-color: #666;
+} */ */
+
+.service-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  min-height: 350px;
+  padding: 15px;
+  flex-shrink: inherit;
+}
+
+.section-border{
+    /* background: #d0d0d0; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #dedede;
+}
+
+.service-item h1{
+    color:red;
+}
+
+.footercontainer {
+    background-color: #a52a2a;
+    padding: 2.5%;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-items: right; */
+    position: relative;
+  }
+
+  .text{
+    justify-content: center;
+  }
+
+  .carousel-item{
+    /* height: 93vh; */
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center;
+  }
+
+  
+
+  /* ini css backgrond yang cara 1 */
+  /* @media (max-width: 768px){
+    .slider-1{
+      background: url(../assets/images/pot-pat-rindone-pbuuVSR80Kc-unsplash.jpg) !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+      background-position: center center;
+    }
+
+    .slider-2{
+      background: url(../assets/images/pot-pat-rindone-pbuuVSR80Kc-unsplash.jpg) !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+      background-position: center center;
+    }
+    .slider-3{
+      background: url(../assets/images/pot-zally-orsi-DF3LkQN6qgo-unsplash.jpg) !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+      background-position: center center;
+    }
+  } */
+
+
+/* ini css background cara2 */
+.slider-mobile{
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center center;
+}
+
+.carousel-caption{
+  position: relative;
+  right: auto;
+  left: auto;
+  padding: 0px;
+}
+
+.caption{
+  text-align: center;
+  color: white;
+}
+
+.slider-desktop{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 93vh;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center center;
+
+}
+  @media (max-width: 768px){
+    .slider-mobile{
+      display: block;
+    }
+    .slider-desktop{
+      display: none;
+    }
+
+
+    /* .slider-3{
+      background: url(../assets/images/pot-zally-orsi-DF3LkQN6qgo-unsplash.jpg) !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+      background-position: center center;
+    } */
+  }
+
